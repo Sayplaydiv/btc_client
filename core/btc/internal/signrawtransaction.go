@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"btcsdk/walletsdk/btc_client/core/btc/internal/txscript"
+	"github.com/Sayplaydiv/btc_client/core/btc/internal/txscript"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/btcsuite/btcd/chaincfg"

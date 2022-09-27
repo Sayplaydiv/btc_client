@@ -6,16 +6,16 @@
 package txauthor
 
 import (
-	"btcsdk/walletsdk/btc_client/core/btc/internal/txrules"
-	"btcsdk/walletsdk/btc_client/core/btc/internal/txsizes"
 	"errors"
+	"github.com/Sayplaydiv/btc_client/core/btc/internal/txrules"
+	"github.com/Sayplaydiv/btc_client/core/btc/internal/txsizes"
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 
-	h "btcsdk/walletsdk/btc_client/core/btc/internal/helpers"
+	h "github.com/Sayplaydiv/btc_client/core/btc/internal/helpers"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

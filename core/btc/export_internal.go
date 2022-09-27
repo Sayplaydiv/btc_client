@@ -1,8 +1,8 @@
 package btc
 
 import (
-	"btcsdk/walletsdk/btc_client/core"
-	"btcsdk/walletsdk/btc_client/core/btc/internal"
+	"github.com/Sayplaydiv/btc_client/core"
+	"github.com/Sayplaydiv/btc_client/core/btc/internal"
 )
 
 // Btc (全部大写在导出到java那边有点问题)

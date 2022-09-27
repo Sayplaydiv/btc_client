@@ -1,7 +1,7 @@
 package btc
 
 import (
-	"btcsdk/walletsdk/btc_client/core/btc/internal"
+	"github.com/Sayplaydiv/btc_client/core/btc/internal"
 	"github.com/btcsuite/btcutil"
 )
 
